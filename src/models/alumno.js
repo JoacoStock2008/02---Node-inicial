@@ -6,3 +6,4 @@ class Alumno{
     }
     toString = () => `username: ${username}\nDNI: ${DNI}\nedad: ${edad}`;
 }
+//Exportar alumno
