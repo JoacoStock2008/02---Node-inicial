@@ -4,6 +4,6 @@ class Alumno{
         this.dni = DNI;
         this.edad = edad;
     }
-    toString = () => `username: ${username}\nDNI: ${DNI}\nedad: ${edad}`;
+    toString = () => `username: ${this.username}\nDNI: ${this.dni}\nedad: ${this.edad}`;
 }
-//Exportar alumno
+export {Alumno};
